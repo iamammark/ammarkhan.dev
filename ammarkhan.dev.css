@@ -1,0 +1,179 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.322),
+      rgba(0, 0, 0, 0.322)), url("bg\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+}
+
+.navbar-text a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-icon {
+  height: 20px;
+  width: 20px;
+  padding-right: 5px;
+}
+
+.navbar-dark {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.navbar-dark .navbar-text:last-child {
+  border-right: 0;
+}
+
+main {
+  padding-top: 15px;
+}
+
+.page-title {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.page-description {
+  max-width: 75%;
+  font-size: 18px;
+}
+
+/* Footer  */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+
+.footer-social-links .social-link {
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  margin-right: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-social-links .social-link:last-child {
+  margin-right: 0;
+}
+
+.footer-social-links .social-link:hover {
+  text-decoration: none;
+  background-color: #5fb7ff;
+  color: #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .navbar-dark {
+    padding-bottom: 0;
+  }
+
+  footer {
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  .page-title {
+    font-size: 35px;
+    margin-bottom: 14px;
+  }
+
+  .page-title span {
+    display: inline;
+    font-size: 20px;
+  }
+
+  .page-description {
+    font-size: 14px;
+    margin-inline: auto;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  .navbar-dark .navbar-text {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-dark {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .page-title {
+    font-size: 60px;
+  }
+
+  .page-description {
+    font-size: 16px;
+  }
+
+  .footer-social-links .social-link {
+    line-height: 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .navbar-dark .navbar-text {
+    font-size: 17px;
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .page-title {
+    font-size: 80px;
+  }
+
+  .page-description {
+    font-size: 18px;
+  }
+
+  .footer-social-links .social-link {
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-dark .navbar-text {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-height: 600px) {
+  footer {
+    position: relative;
+    padding-top: 100px;
+  }
+}
